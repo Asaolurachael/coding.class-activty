@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>ARIOM INTERNATIONAL ACADEMY</h2>
+    <p id="result"></p>
+    
+    <script>
+        var myObj = {name: "Ariom", age: 12, grade: 7};
+        var myJASON = JSON.stringify(myObj);
+        var newObj = JSON.parse(myJASON);
+        document.getElementById("result").innerHTML = newObj.name;
+    </script>
+
+</body>
+</html>
