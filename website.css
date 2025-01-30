@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+
+    color: blue;
+}
+.container{
+    width: 1300px;
+    margin: 0px auto;
+
+}
+.header{
+    background-color: darkseagreen;
+    padding: 12px;
+}
+.header b{
+    background: #eee;
+    color: aqua;
+    padding: 10px;
+    font-size: 20px;
+}
+.header marquee{
+    font-size: 20px;
+    color: blue;
+    width: 80%;
+}
+.nav{
+    float: left;
+    padding: 25px 0px;
+}
+.slider img{
+    width: 1350px;
+    height: 500px;
+}
+.header-menu{
+   position: relative;
+   box-shadow: 0px 2px  5px 0px #00000036;
+}
+.main-menu{
+   list-style: none;
+   float: right;
+   margin-top: 20px;
+}
+.main-menu a{
+   font-weight: 500;
+   color: crimson;
+   font-size: 20px;
+   text-decoration: none;
+}
+.main-menu li{
+    float: left;
+    padding: 12px 15px;
+}
+.text-box{
+    width: 90%;
+    color: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: blue;
+}
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.h1{
+  font-size: 36px;
+  font-size: 600;
+}
+.p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #777;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transform: 0.5s;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(red, green, blue, alpha);
+}
+.accomodation{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.h1{
+    font-size: 36px;
+    font-size: 600;
+  }
+  .p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+  }
+.home{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.home-col{
+    flex-basis: 31%;
+    background: #777;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transform: 0.5s;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.home-col:hover{
+    box-shadow: 0 0 20px 0px rgba(red, green, blue, alpha);
+}
+.school{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.school-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.school-col img{
+    width: 100%;
+    display: block;
+}
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226, 0,0,0.7)
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.facilites {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilites-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.facilites-col img{
+    width: 100%;
+    display: block;
+}
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonials-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.testimonials-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.testimonials-col p{
+    padding: 0;
+}
+.testimonials-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.Academy {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.ariom {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+ion-icon {
+    color: blue;
+    font-size: 1.6em;
+}
